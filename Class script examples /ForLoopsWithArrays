@@ -1,0 +1,24 @@
+int[] numbers = {4, 5, 6, 7, 8, 9,};
+foreach (int i in numbers)
+{
+    Console.WriteLine"{0}" , i );
+}
+
+for(int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
+
+for(int i = 0; i <= 10; i = i +2)
+{
+    Console.WriteLine(i);
+}
+
+string[] bugs = {"Ladybug", "Rollypolly", "Stickbug", "Butterfly"};
+Console.WriteLine(bugs[2]);
+
+string[] bugs = {"Ladybug", "Rollypolly", "Stickbug", "Butterfly"};
+for (int i = 0; i < bugs.Length; i++)
+{
+    Console.WriteLine(bugs[i]);
+}
