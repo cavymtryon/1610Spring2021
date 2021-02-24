@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 990b151faf31f4e17a383c40a4911439, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circle: {fileID: 1379981983}
+  circle: {fileID: 1039657642}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -483,7 +483,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 15.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1379981983
