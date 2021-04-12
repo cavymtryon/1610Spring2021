@@ -18,7 +18,12 @@ public class DestroyOutOfBounds : MonoBehaviour
     {
         if (transform.position.z > topBound)
         {
-            Destroy(gameObject);
+            // Instead of destroying the projectile when it leaves the screen
+            //Destroy(gameObject);
+
+            // Just deactivate it
+            gameObject.SetActive(false);
+
         }
         else if (transform.position.z < lowerBound)
         {
